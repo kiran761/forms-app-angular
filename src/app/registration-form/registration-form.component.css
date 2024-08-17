@@ -1,0 +1,15 @@
+.registrationform{
+
+    border:2px solid orange;
+    padding :10px;
+    margin:10px;
+    width :50vw
+}
+.title{
+
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+
+}
