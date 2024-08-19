@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { FormsModule } from '@angular/forms';
 
-import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { FormsComponent } from './forms/forms.component';
 import { RegistrationFormComponent } from './registration-form/registration-form.component';
@@ -9,12 +9,12 @@ import { RegistrationFormComponent } from './registration-form/registration-form
 @NgModule({
   declarations: [
     AppComponent,
-    FormsComponent,
-    RegistrationFormComponent
+    FormsComponent, 
+    RegistrationFormComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    FormsModule 
   ],
   providers: [],
   bootstrap: [AppComponent]

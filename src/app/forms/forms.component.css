@@ -15,3 +15,12 @@
 
 }
 
+.alert{
+    background-color:#fed3d3 ;
+    border-radius: 8px;
+    margin:4px;
+    padding:10px;
+    font-size: small;
+    color:#820000;
+}
+

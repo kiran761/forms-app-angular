@@ -7,4 +7,20 @@ import { Component } from '@angular/core';
 })
 export class RegistrationFormComponent {
 
+  firstName: string = '';
+  lastName: string = '';
+  username: string = '';
+  email: string = '';
+  password: string = '';
+  confirmPassword: string = '';
+  terms: boolean = false;
+
+  onSubmit() {
+    if (this.password !== this.confirmPassword) {
+      alert('Passwords do not match!');
+      return;
+    }
+ 
+    alert('Form submitted successfully!');
+  }
 }

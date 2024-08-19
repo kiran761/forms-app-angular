@@ -7,4 +7,14 @@ import { Component } from '@angular/core';
 })
 export class FormsComponent {
 
+  email:string = "";
+  password:string = "";
+
+
+  print(){
+    console.log(this.email + this.password);
+  }
+
+
+
 }
